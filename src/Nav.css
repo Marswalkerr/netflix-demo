@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box; */
+}
+
+.nav{
+    position: fixed;
+    top: 0;
+    padding: 20px;
+    width: 100%;
+    height: 30px;
+    z-index: 1;
+
+    /* Animations */ 
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+}
+
+.navContents{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navBlack{
+    background-color: black;
+}
+
+.netflixLogo{
+    width: 80px;
+    position: fixed;
+    left: 0;
+    top: 15px;
+    object-fit: contain;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.avataarLogo{
+    width: 30px;
+    position: fixed;
+    right: 20px;
+    cursor: pointer;
+}
