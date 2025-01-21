@@ -35,3 +35,45 @@
     transform: scale(1.09);
     opacity: 1;
 }
+
+.row {
+    /* Existing styles remain the same */
+}
+
+.trailerModal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+.modalContent {
+    position: relative;
+    width: 90%;
+    max-width: 800px;
+    background-color: #111;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.closeModal {
+    position: absolute;
+    top: -30px;
+    right: -30px;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
+.closeModal:hover {
+    color: #e6e6e6;
+}
