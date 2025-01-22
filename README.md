@@ -2,9 +2,9 @@
 
 A Netflix clone built using React, featuring movie trailers, dynamic content rows, and a responsive design. This project uses The Movie Database (TMDB) API to fetch real movie data and YouTube for trailer playback.
 
-!Click here to see the live demo: [Netflix Demo](https://themovie-site-demo.netlify.app/)
+Click here to see the live demo: [Netflix Demo](https://themovie-site-demo.netlify.app/)
 
-## eatures
+## Features
 
 - Dynamic hero banner with featured content
 - Multiple categories of movies and TV shows
@@ -20,7 +20,7 @@ A Netflix clone built using React, featuring movie trailers, dynamic content row
 - Axios for API requests
 - TMDB API for movie data
 - CSS3 for styling
-- react-youTube for video playback
+- react-youtube for video playback
 
 ## Prerequisites
 
